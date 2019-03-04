@@ -26,7 +26,7 @@ export class EditExpensePage extends React.Component {
             onSubmit={this.onSubmit}
           />
           <button
-            className="button button--secondary" 
+            className="button button--secondary hvr-grow" 
             onClick={this.onRemove}>Remove Expense</button>
         </div>
       </div>

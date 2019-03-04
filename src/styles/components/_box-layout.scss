@@ -1,7 +1,6 @@
 .box-layout {
   align-items: center;
-  background: url('/images/bg.jpg');
-  background-size: cover;
+  background: $dark-blue;
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -14,9 +13,13 @@
   padding: $l-size $m-size;
   text-align: center;
   width: 25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .box-layout__title {
   margin: 0 0 $m-size 0;
-  line-height: 1;
+}
+
+.logo {
+  width: 20rem;
 }
